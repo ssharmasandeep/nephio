@@ -1,15 +1,23 @@
-module github.com/ssharmasandeep/nephio/controllers/edge-status-aggregator
+module github.com/ssharmasandeep/nephio
 
 go 1.20
 
 require (
+	github.com/GoogleContainerTools/kpt v1.0.0-beta.29.0.20230327202912-01513604feaa
+	github.com/GoogleContainerTools/kpt-functions-sdk/go/fn v0.0.0-20230427202446-3255accc518d
 	github.com/GoogleContainerTools/kpt/porch/api v0.0.0-20230515193306-c1ed58d3ed0f
 	github.com/go-logr/logr v1.2.4
 	github.com/golang/mock v1.6.0
+	github.com/google/go-cmp v0.5.9
 	github.com/google/uuid v1.3.0
 	github.com/nephio-project/api v0.0.0-20230511161732-3316d8b9a793
 	github.com/nephio-project/edge-status-aggregator v0.0.0-20230515205548-4569f757b007
 	github.com/nephio-project/edge-watcher v0.0.0-20230501213922-6c3505259178
+	github.com/nephio-project/nephio/controllers/pkg v0.0.0-20230516034137-53f1f1859c10
+	github.com/nephio-project/nephio/krm-functions/ipam-fn v0.0.0-20230516034137-53f1f1859c10
+	github.com/nephio-project/nephio/krm-functions/lib v0.0.0-20230516034137-53f1f1859c10
+	github.com/nephio-project/nephio/krm-functions/vlan-fn v0.0.0-20230516034137-53f1f1859c10
+	github.com/nokia/k8s-ipam v0.0.4-0.20230505052819-ca2376dd660e
 	github.com/onsi/ginkgo/v2 v2.9.5
 	github.com/onsi/gomega v1.27.6
 	github.com/pkg/errors v0.9.1
@@ -21,6 +29,7 @@ require (
 )
 
 require (
+	github.com/GoogleContainerTools/kpt-functions-sdk/go/api v0.0.0-20220720212527-133180134b93 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
@@ -38,7 +47,6 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/gnostic v0.6.9 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/pprof v0.0.0-20230429030804-905365eefe3e // indirect
 	github.com/hansthienpondt/nipam v0.0.5 // indirect
@@ -56,7 +64,6 @@ require (
 	github.com/nephio-project/common-lib v0.0.0-20230323213126-d2b264ed8a20 // indirect
 	github.com/nephio-project/nf-deploy-controller v0.0.0-20230320074229-35844d543b37 // indirect
 	github.com/nephio-project/watcher-agent v0.0.0-20230502170423-689b6c313007 // indirect
-	github.com/nokia/k8s-ipam v0.0.4-0.20230416191338-dcd944a8d636 // indirect
 	github.com/prometheus/client_golang v1.15.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.42.0 // indirect
@@ -89,6 +96,7 @@ require (
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f // indirect
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/kustomize/api v0.12.1 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
