@@ -21,9 +21,8 @@ import (
 	"flag"
 	"fmt"
 	"github.com/nephio-project/nephio-controller-poc/pkg/porch"
-	"github.com/ssharmasandeep/nephio/controllers/edge-status-aggregator/pkg/controllers"
-	"github.com/ssharmasandeep/nephio/controllers/specializer-operator/pkg/controllers/config"
-	"github.com/ssharmasandeep/nephio/controllers/specializer-operator/pkg/specializer-reconciler"
+	"github.com/ssharmasandeep/nephio/controllers/pkg/edge-status-aggregator/pkg/controllers"
+	"github.com/ssharmasandeep/nephio/controllers/pkg/specializer-operator/pkg/controllers/config"
 	"os"
 	"strings"
 

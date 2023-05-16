@@ -24,8 +24,8 @@ import (
 	ipamv1alpha1 "github.com/nokia/k8s-ipam/apis/alloc/ipam/v1alpha1"
 	"github.com/nokia/k8s-ipam/pkg/proxy/clientproxy"
 	"github.com/nokia/k8s-ipam/pkg/proxy/clientproxy/ipam"
-	"github.com/ssharmasandeep/nephio/controllers/specializer-operator/pkg/controllers/config"
-	"github.com/ssharmasandeep/nephio/controllers/specializer-operator/pkg/specializer-reconciler"
+	"github.com/ssharmasandeep/nephio/controllers/pkg/specializer-operator/pkg/controllers/config"
+	"github.com/ssharmasandeep/nephio/controllers/pkg/specializer-operator/pkg/specializer-reconciler"
 	corev1 "k8s.io/api/core/v1"
 	ctrl "sigs.k8s.io/controller-runtime"
 )
