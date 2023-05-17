@@ -14,8 +14,6 @@ require (
 	sigs.k8s.io/controller-runtime v0.14.6
 )
 
-replace github.com/nephio-project/nephio/controllers/controllers/reconcilers/reconcilerinterface => /Users/sandeepsharma/dev/nephio/fork1/nephio/controllers/reconcilers/reconciler-interface
-
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
